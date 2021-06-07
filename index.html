@@ -1,0 +1,67 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Ducks</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="root">
+
+    <navbar class='navbar'>
+      <h2 class="navbar__logo">CryptoDucks</h2>
+      <ul class="navbar__list">
+        <li><a class="navbar__list-item" href='#duck'>Duck</a></li>
+        <li><a class="navbar__list-item" href='#spots'>Spots</a></li>
+        <li><a class="navbar__list-item" href='#form'>Form</a></li>
+      </ul>
+    </navbar>
+    <header class='header'>
+      <section class="header__content">
+      <h1 id="duck" class="header__title">Dog Duck</h1>
+      <img src="./images/dogduck.png" alt="The elusive dogduck" class="header__icon">
+      <p class="header__description">This rare duck has been spotted on a number of occasions throughout central Europe.
+        It is said to enjoy playing with old socks that it finds in the water. Tanya
+        Peterson was 25 when she saw this duck, she reported, "It was quite a friendly
+        little fellow. At no time did I feel any fear. I stayed with him for maybe 15 or 20
+        minutes, then zoom! He zipped out of the water and across the night sky like a
+        comet."
+      </p>
+      </section>
+    </header>
+
+    <main>
+      <section class="gallery">
+        <h2 class="gallery__title">Gallery of Duck Siting</h2>
+        <div class="gallery__grid">
+          <figure class="gallery__item"><img class="gallery__image" src="./images/duck1.jpg" alt="Duck in the park">
+          <figcaption class="gallery__desc">Mysterious</figcaption>
+          </figure>
+          <figure class="gallery__item"><img class="gallery__image" src="./images/duck5.jpg" alt="Bunch of quacks"><figcaption class="gallery__desc">Ominous</figcaption></figure>
+          <figure class="gallery__item"><img class="gallery__image" src="./images/duck3.jpg" alt="Duck city"><figcaption class="gallery__desc">Webbed</figcaption></figure>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class='footer'>
+      <h2 class="footer__heading">Report CryptoDuck Evidence!</h2>
+      <form class="footer__form">
+        <label class="footer__form-label" for="name">Your Name</label>
+        <input class='footer__form-input' type="text" placeholder="Please enter your name">
+        <label class="footer__form-label" for="email">Your Email</label>
+        <input class='footer__form-input' type="email" placeholder="Please enter your email">
+        <label class="footer__form-label" for="message">Where did you see the duck?</label>
+        <input class='footer__form-input_type_message' type="textarea" placeholder="Your message here">
+        <button type='submit' class="footer__form-button">Submit</button>
+        <button type='reset' class="footer__form-button">Reset</button>
+      </form>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
