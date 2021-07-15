@@ -4,12 +4,7 @@ html {
   scroll-behavior: smooth;
 }
 
-.root {
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
-  width: 100%;
-  margin: 0 auto;
-  /* max-width: 1280px; */
-}
+
 
 .navbar {
   max-width: 100%;
